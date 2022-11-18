@@ -1,0 +1,16 @@
+{
+  "icon": "docker.svg",
+  "vm": {
+    "composefile": "docker-compose.yaml"
+  },
+  "ui": {
+    "dashboard-tab": {
+      "title": "Harness Cd",
+      "src": "index.html",
+      "root": "ui",
+      "backend": {
+        "socket": "extension-my-harness-cd-extension.sock"
+      }
+    }
+  }
+}
